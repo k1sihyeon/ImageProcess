@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Missed arguments test",
+      "setup": "",
+      "run": "make test ARG=1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Same file size test",
+      "setup": "",
+      "run": "make test ARG=3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Matrix 1 x 1 multiplication",
+      "setup": "",
+      "run": "make test ARG=4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Matrix 31 x 31 multiplication",
+      "setup": "",
+      "run": "make test ARG=5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Matrix 1000 x 1000 multiplication",
+      "setup": "",
+      "run": "make test ARG=6",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Matrix 1000 x Identity matrix 1000 multiplication",
+      "setup": "",
+      "run": "make test ARG=7",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Multiple processes run in parallel",
+      "setup": "",
+      "run": "make test ARG=8",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Square matrix test",
+      "setup": "",
+      "run": "make test ARG=2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
